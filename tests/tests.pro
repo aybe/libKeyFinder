@@ -34,6 +34,8 @@ LIBS += -lkeyfinder
 
 HEADERS += _testhelpers.h
 
+INCLUDEPATH += src
+
 SOURCES += \
     main.cpp \
     _testhelpers.cpp \

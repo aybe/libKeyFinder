@@ -35,40 +35,40 @@ QMAKE_CXXFLAGS += -std=c++11
 DEFINES += LIBKEYFINDER_LIBRARY
 
 HEADERS += \
-    audiodata.h \
-    binode.h \
-    chromagram.h \
-    chromatransform.h \
-    chromatransformfactory.h \
-    constants.h \
-    exception.h \
-    fftadapter.h \
-    keyclassifier.h \
-    keyfinder.h \
-    lowpassfilter.h \
-    lowpassfilterfactory.h \
-    spectrumanalyser.h \
-    temporalwindowfactory.h \
-    toneprofiles.h \
-    windowfunctions.h \
-    workspace.h
+    src/audiodata.h \
+    src/binode.h \
+    src/chromagram.h \
+    src/chromatransform.h \
+    src/chromatransformfactory.h \
+    src/constants.h \
+    src/exception.h \
+    src/fftadapter.h \
+    src/keyclassifier.h \
+    src/keyfinder.h \
+    src/lowpassfilter.h \
+    src/lowpassfilterfactory.h \
+    src/spectrumanalyser.h \
+    src/temporalwindowfactory.h \
+    src/toneprofiles.h \
+    src/windowfunctions.h \
+    src/workspace.h
 
 SOURCES += \
-    audiodata.cpp \
-    chromagram.cpp \
-    chromatransform.cpp \
-    chromatransformfactory.cpp \
-    fftadapter.cpp \
-    keyclassifier.cpp \
-    keyfinder.cpp \
-    lowpassfilter.cpp \
-    lowpassfilterfactory.cpp \
-    spectrumanalyser.cpp \
-    temporalwindowfactory.cpp \
-    toneprofiles.cpp \
-    windowfunctions.cpp \
-    workspace.cpp \
-    constants.cpp
+    src/audiodata.cpp \
+    src/chromagram.cpp \
+    src/chromatransform.cpp \
+    src/chromatransformfactory.cpp \
+    src/fftadapter.cpp \
+    src/keyclassifier.cpp \
+    src/keyfinder.cpp \
+    src/lowpassfilter.cpp \
+    src/lowpassfilterfactory.cpp \
+    src/spectrumanalyser.cpp \
+    src/temporalwindowfactory.cpp \
+    src/toneprofiles.cpp \
+    src/windowfunctions.cpp \
+    src/workspace.cpp \
+    src/constants.cpp
 
 OTHER_FILES += README
 
