@@ -1,3 +1,9 @@
+This fork has a CMakeLists.txt and a mini-wrapper consisting of C exports for usage in many languages.
+
+[download](https://github.com/aybe/libKeyFinder/releases/tag/first)
+
+---
+
 # `libKeyFinder`
 
 [![Build Status](https://travis-ci.org/ibsh/libKeyFinder.svg?branch=master)](https://travis-ci.org/ibsh/libKeyFinder)
