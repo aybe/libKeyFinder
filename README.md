@@ -92,6 +92,14 @@ $ make
 $ make install
 ```
 
+### Alternative instructions for Windows, using CMake
+
+- get [precompiled FFTW](http://www.fftw.org/install/windows.html) and generate libraries as explained in `README-WINDOWS`
+- open CMake (cmake-gui) and configure options:
+ - `BUILD_SHARED_LIBS`: builds a DLL instead of a static library
+ - `ENABLE_STATIC_RUNTIME`: link statically to runtime (recommended)
+ - `FFTW3_*`: locations of FFTW header and library
+
 ## Testing
 
 After having successfully installed the library following the above instructions, run the following commands to build and run the tests:
