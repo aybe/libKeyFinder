@@ -99,6 +99,7 @@ $ make install
  - `BUILD_SHARED_LIBS`: builds a DLL instead of a static library
  - `ENABLE_STATIC_RUNTIME`: link statically to runtime (recommended)
  - `FFTW3_*`: locations of FFTW header and library
+ - `ENABLE_C_WRAPPER`: enables the mini-wrapper with C exports
 
 ## Testing
 
