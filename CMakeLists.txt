@@ -23,20 +23,35 @@ include_directories(src ${FFTW3_H})
 
 set(SOURCES
 	src/audiodata.cpp
+	src/audiodata.h
 	src/chromagram.cpp
+	src/chromagram.h
 	src/chromatransform.cpp
+	src/chromatransform.h
 	src/chromatransformfactory.cpp
+	src/chromatransformfactory.h
 	src/constants.cpp
+	src/constants.h
 	src/fftadapter.cpp
+	src/fftadapter.h
 	src/keyclassifier.cpp
+	src/keyclassifier.h
 	src/keyfinder.cpp
+	src/keyfinder.h
 	src/lowpassfilter.cpp
+	src/lowpassfilter.h
 	src/lowpassfilterfactory.cpp
+	src/lowpassfilterfactory.h
 	src/spectrumanalyser.cpp
+	src/spectrumanalyser.h
 	src/temporalwindowfactory.cpp
+	src/temporalwindowfactory.h
 	src/toneprofiles.cpp
+	src/toneprofiles.h
 	src/windowfunctions.cpp
+	src/windowfunctions.h
 	src/workspace.cpp
+	src/workspace.h
 )
 
 add_library(libKeyFinder ${SOURCES})
