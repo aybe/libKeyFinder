@@ -8,6 +8,7 @@ endif()
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 set(CMAKE_DEBUG_POSTFIX d)
 
+option(ENABLE_C_WRAPPER "Enable C wrapper" OFF)
 option (BUILD_SHARED_LIBS "Build shared libraries" ON)
 
 option(ENABLE_STATIC_RUNTIME "Link with runtime statically" ON)
@@ -53,6 +54,13 @@ set(SOURCES
 	src/workspace.cpp
 	src/workspace.h
 )
+
+if (ENABLE_C_WRAPPER)
+	list(APPEND SOURCES 
+		src/wrapper.cpp
+		src/wrapper.h
+	)
+endif()
 
 add_library(libKeyFinder ${SOURCES})
 
