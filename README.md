@@ -1,10 +1,14 @@
 This fork has a CMakeLists.txt and a mini-wrapper consisting of C exports for usage in many languages.
 
-[download](https://github.com/aybe/libKeyFinder/releases)
+### Links
 
-[.NET wrapper](https://github.com/aybe/libKeyFinderDotNet)
+https://github.com/ibsh/libKeyFinder <- author of the original library
 
----
+https://github.com/aybe/libKeyFinder.NET <- .NET library + NuGet package
+
+https://github.com/aybe/libKeyFinder.NET.CLI <- command-line key chord detector
+
+-----
 
 # `libKeyFinder`
 
